@@ -169,7 +169,7 @@ form button:hover{
   transform: scale(1.1);
   color: #FF1493;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 800px) {
     .center,.start-btn{
         position: absolute;
         top: 50%;
@@ -193,7 +193,7 @@ form button:hover{
         visibility: hidden;
         background: white;
         height: auto;
-        width: 400px;
+        width: 300px;
         padding: 30px;
         border-radius: 5px;
         border: 1px solid #e448d7;
