@@ -10,9 +10,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <body>
-    <div class="start-btn">
-      <a href="#" class="fab fa-whatsapp">Subscribe</a>
-    </div>
+   
 <div class="center modal-box">
       <div class="fas fa-times">
 </div>
@@ -32,17 +30,33 @@
 
 </div>
 <script>
-      $(document).ready(function(){
+     /* $(document).ready(function(){
         $('.start-btn').click(function(){
           $('.modal-box').toggleClass("show-modal");
           $('.start-btn').toggleClass("show-modal");
+          setInterval(function() {wait();},4000);
+        }   
         });
         $('.fa-times').click(function(){
           $('.modal-box').toggleClass("show-modal");
           $('.start-btn').toggleClass("show-modal");
         });
-      });
-    </script>
+      });*/
+      setTimeout(()=>{ $('.modal-box').toggleClass("show-modal");
+          $('.start-btn').toggleClass("show-modal");},7000)
+      /* function call()
+        {
+            popup = window.open('http://www.google.co.in');         
+            setTimeout(wait, 8000);
+        }   
+        function caller()
+        {
+            setInterval(call, 12000);
+        }
+        function wait()
+        {
+            popup.close();
+        }*/    </script>
 
   </body>
 </html>
