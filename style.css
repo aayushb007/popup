@@ -179,7 +179,7 @@ form button:hover{
       .start-btn a{
         font-size: 25px;
         background: white;
-        color: #48DBFB;
+        color: #33E0FF;
         padding: 10px 15px;
         border-radius: 5px;
         text-decoration: none;
@@ -196,7 +196,7 @@ form button:hover{
         width: 300px;
         padding: 30px;
         border-radius: 5px;
-        border: 1px solid #e448d7;
+        border: 1px solid #33E0FF;
         box-shadow: 5px 5px 30px rgba(0,0,0,.2);
       }
       .start-btn.show-modal{
@@ -213,7 +213,7 @@ form button:hover{
         position: absolute;
         top: 0;
         right: 0;
-        background: #FF1493;
+        background: #33E0FF;
         height: 45px;
         width: 50px;
         line-height: 40px;
@@ -228,7 +228,7 @@ form button:hover{
       }
       .modal-box .icon1{
         font-size: 60px;
-        background: #FF1493;
+        background: #33E0FF;
         height: 120px;
         width: 120px;
         color: white;
@@ -257,7 +257,7 @@ form button:hover{
         height: 50px;
         width: 50px;
         margin-top: 15px;
-        background: #FF1493;
+        background: #33E0FF;
         color: white;
         line-height: 50px;
         font-size: 24px;
@@ -281,10 +281,10 @@ form button:hover{
       }
       form button{
         margin-top: 15px;
-        background: #FF1493;
+        background: #33E0FF;
         color: white;
         font-size: 25px;
-        border: 1px solid #FF1493;
+        border: 1px solid #33E0FF;
         letter-spacing: 1px;
         cursor: pointer;
         outline: none;
@@ -304,13 +304,13 @@ form button:hover{
           width: 140px;
       }
       .but:hover{
-          background:  fuchsia ;
+          background: #33E0FF;
           border: 1px solid #FF1493;
           letter-spacing: 2px;
       }
       form button:hover{
         background: fuchsia;
-        border: 1px solid #FF1493;
+        border: 1px solid #33E0FF;
         letter-spacing: 2px;
       }
       .modal-box .icons{
