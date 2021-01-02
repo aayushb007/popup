@@ -7,7 +7,7 @@
 body{
   text-align: center;
   background: #e1e8e9;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Roboto';
 }
 ::selection{
   color: white;
@@ -39,7 +39,7 @@ body{
   width: 400px;
   padding: 30px;
   border-radius: 5px;
-  border: 1px solid #e448d7;
+  border: 1px solid #33E0FF;
   box-shadow: 5px 5px 30px rgba(0,0,0,.2);
 }
 .start-btn.show-modal{
@@ -56,7 +56,7 @@ body{
   position: absolute;
   top: 0;
   right: 0;
-  background: #FF1493;
+  background: #33E0FF ;
   height: 45px;
   width: 50px;
   line-height: 40px;
@@ -124,10 +124,10 @@ form input:focus{
 }
 form button{
   margin-top: 15px;
-  background: #FF1493;
+  background: #33E0FF;
   color: white;
   font-size: 25px;
-  border: 1px solid #FF1493;
+  border: 1px solid  #33F9FF;
   letter-spacing: 1px;
   cursor: pointer;
   outline: none;
@@ -147,14 +147,14 @@ form button{
     width: 140px;
 }
 .but:hover{
-    background:  fuchsia ;
+    background: #FF1493  ;
     border: 1px solid #FF1493;
     letter-spacing: 2px;
 }
 form button:hover{
-  background: fuchsia;
-  border: 1px solid #FF1493;
-  letter-spacing: 2px;
+  background: #33E0FF;
+  border: 1px solid #33E0FF;
+  letter-spacing: 3px;
 }
 .modal-box .icons{
   margin-top: 25px;
