@@ -305,11 +305,11 @@ form button:hover{
       }
       .but:hover{
           background: #33E0FF;
-          border: 1px solid #FF1493;
+          border: 1px solid #33E0FF;
           letter-spacing: 2px;
       }
       form button:hover{
-        background: fuchsia;
+        background: #33E0FF;
         border: 1px solid #33E0FF;
         letter-spacing: 2px;
       }
@@ -328,3 +328,4 @@ form button:hover{
       }
       
   }
+  
